@@ -1,0 +1,37 @@
+.app__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.app__status{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app__left{
+  display: flex;
+  flex-direction: column;
+  flex: 0.9;
+}
+
+.app__right{
+  display: flex;
+}
+
+body{
+  background-color: #f5f6fa;
+}
+
+@media (max-width: 990px){
+ .app{
+   flex-direction: column;
+ } 
+}
